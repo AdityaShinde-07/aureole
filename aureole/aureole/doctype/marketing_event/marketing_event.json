@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-14 12:53:32.573616",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "linked",
+  "mkt_event_type",
+  "name1",
+  "approval",
+  "region",
+  "venue",
+  "datetime",
+  "table_zavu"
+ ],
+ "fields": [
+  {
+   "fieldname": "linked",
+   "fieldtype": "Link",
+   "label": "linked ",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "mkt_event_type",
+   "fieldtype": "Link",
+   "label": "mkt event type ",
+   "options": "Marketing Event Type"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name "
+  },
+  {
+   "fieldname": "approval",
+   "fieldtype": "Link",
+   "label": "Approval ",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Link",
+   "label": "Region ",
+   "options": "Marketing Region"
+  },
+  {
+   "fieldname": "venue",
+   "fieldtype": "Text",
+   "label": "Venue "
+  },
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "Date/Time "
+  },
+  {
+   "fieldname": "table_zavu",
+   "fieldtype": "Table",
+   "options": "Marketing Event Materials"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-14 13:07:02.933086",
+ "modified_by": "Administrator",
+ "module": "Aureole",
+ "name": "Marketing Event",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

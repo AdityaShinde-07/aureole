@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-14 13:03:54.221782",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_xavg",
+  "column_break_fkrw",
+  "name1",
+  "column_break_nikm",
+  "cost",
+  "column_break_bayi",
+  "quantity",
+  "column_break_hhtx",
+  "total_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name "
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Cost "
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_nikm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bayi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_fkrw",
+   "fieldtype": "Column Break",
+   "in_preview": 1
+  },
+  {
+   "fieldname": "section_break_xavg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hhtx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Cost ",
+   "options": "Currency"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-14 14:37:11.732490",
+ "modified_by": "Administrator",
+ "module": "Aureole",
+ "name": "Marketing Event Materials",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
