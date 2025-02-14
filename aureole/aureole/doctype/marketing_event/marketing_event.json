@@ -5,33 +5,19 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "linked",
-  "mkt_event_type",
-  "name1",
-  "approval",
+  "event_details_section",
+  "event_name",
+  "event_datetime",
+  "event_type",
   "region",
+  "column_break_uisq",
   "venue",
-  "datetime",
-  "table_zavu"
+  "employee",
+  "approval",
+  "section_break_lmfl",
+  "event_materials"
  ],
  "fields": [
-  {
-   "fieldname": "linked",
-   "fieldtype": "Link",
-   "label": "linked ",
-   "options": "Employee"
-  },
-  {
-   "fieldname": "mkt_event_type",
-   "fieldtype": "Link",
-   "label": "mkt event type ",
-   "options": "Marketing Event Type"
-  },
-  {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "label": "Name "
-  },
   {
    "fieldname": "approval",
    "fieldtype": "Link",
@@ -46,23 +32,61 @@
   },
   {
    "fieldname": "venue",
-   "fieldtype": "Text",
-   "label": "Venue "
+   "fieldtype": "Small Text",
+   "label": "Venue ",
+   "reqd": 1
   },
   {
-   "fieldname": "datetime",
+   "fieldname": "event_type",
+   "fieldtype": "Link",
+   "label": "Event Type",
+   "options": "Marketing Event Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee ",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "event_name",
+   "fieldtype": "Data",
+   "label": "Event Name ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "event_details_section",
+   "fieldtype": "Section Break",
+   "label": "Event Details"
+  },
+  {
+   "fieldname": "event_datetime",
    "fieldtype": "Datetime",
-   "label": "Date/Time "
+   "label": "Event Datetime",
+   "reqd": 1
   },
   {
-   "fieldname": "table_zavu",
+   "fieldname": "column_break_uisq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lmfl",
+   "fieldtype": "Section Break",
+   "label": "Event Expense"
+  },
+  {
+   "fieldname": "event_materials",
    "fieldtype": "Table",
+   "label": "Event Materials",
    "options": "Marketing Event Materials"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-14 13:07:02.933086",
+ "modified": "2025-02-14 17:18:04.409114",
  "modified_by": "Administrator",
  "module": "Aureole",
  "name": "Marketing Event",

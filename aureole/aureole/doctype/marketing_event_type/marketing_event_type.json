@@ -1,25 +1,36 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2025-02-14 12:56:10.179048",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "event_type_section",
   "title"
  ],
  "fields": [
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "event_type_section",
+   "fieldtype": "Section Break",
+   "label": "Event Type"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-14 12:56:49.819506",
+ "modified": "2025-02-14 17:28:41.021549",
  "modified_by": "Administrator",
  "module": "Aureole",
  "name": "Marketing Event Type",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -35,7 +46,9 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }
