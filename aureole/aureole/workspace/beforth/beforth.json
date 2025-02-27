@@ -1,0 +1,90 @@
+{
+ "app": "frappe",
+ "charts": [],
+ "content": "[{\"id\":\"77Q3kVFg8Z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">BeForth</span>\",\"col\":12}},{\"id\":\"PP4L6gAAPe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Marketing Events\",\"col\":4}},{\"id\":\"GTXR3Eme2R\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Marketing Event Visitors\",\"col\":4}},{\"id\":\"dmr9tHBfBu\",\"type\":\"card\",\"data\":{\"card_name\":\"Marketing\",\"col\":4}},{\"id\":\"8_YZiHOxHi\",\"type\":\"card\",\"data\":{\"card_name\":\"Daily Service Report\",\"col\":4}}]",
+ "creation": "2025-02-19 22:04:36.771784",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "BeForth",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Marketing",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Marketing Event",
+   "link_count": 0,
+   "link_to": "Marketing Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Service Report",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Service Report",
+   "link_count": 0,
+   "link_to": "Daily Service Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Service Report Category",
+   "link_count": 0,
+   "link_to": "Daily Service Report Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-02-27 19:15:21.568009",
+ "modified_by": "Administrator",
+ "module": "Aureole",
+ "name": "BeForth",
+ "number_cards": [
+  {
+   "label": "Marketing Event Visitors",
+   "number_card_name": "Total Visitors"
+  },
+  {
+   "label": "Marketing Events",
+   "number_card_name": "Marketing Events"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [],
+ "title": "BeForth",
+ "type": "Workspace"
+}

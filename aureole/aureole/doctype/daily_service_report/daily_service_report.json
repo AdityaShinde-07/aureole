@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-02-27 18:42:10.068232",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_opsh",
+  "amended_from",
+  "naming_series",
+  "column_break_ngrg",
+  "employee",
+  "date",
+  "marketing_visit",
+  "daily_service_entries_section",
+  "daily_entries",
+  "section_break_mids",
+  "approver",
+  "approved"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_opsh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Service Report",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_ngrg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "daily_service_entries_section",
+   "fieldtype": "Section Break",
+   "label": "Daily Service Entries"
+  },
+  {
+   "fieldname": "daily_entries",
+   "fieldtype": "Table",
+   "label": "Daily Entries",
+   "options": "Daily Service Entry"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_mids",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approver",
+   "fieldtype": "Link",
+   "label": "Approver",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "approved",
+   "fieldtype": "Check",
+   "label": "Approved?"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "DSR-.DD.-.MM.-.YYYY.-"
+  },
+  {
+   "fieldname": "marketing_visit",
+   "fieldtype": "Link",
+   "label": "Marketing Visit",
+   "options": "Marketing Visit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-02-27 19:46:04.703057",
+ "modified_by": "Administrator",
+ "module": "Aureole",
+ "name": "Daily Service Report",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

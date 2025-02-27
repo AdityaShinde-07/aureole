@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "aureole",
-# 		"logo": "/assets/aureole/logo.png",
-# 		"title": "Aureole",
-# 		"route": "/aureole",
-# 		"has_permission": "aureole.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "beforth",
+		"logo": "/assets/aureole/logo.jpg",
+		"title": "BeForth",
+		"route": "/app/beforth",
+		"has_permission": "aureole.api.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
